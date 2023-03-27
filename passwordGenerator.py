@@ -77,3 +77,5 @@ if save =="S":
   logPassword[input("Nome da Senha: ")] = password
   with open("passwords.txt", "a") as log:
     log.write(str(logPassword))
+
+# end
